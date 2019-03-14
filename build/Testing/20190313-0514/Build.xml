@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20190313-0514-Experimental"
+	Name="osboxes"
+	Generator="ctest-3.5.1"
+	CompilerName="/usr/lib/ccache/c++"
+	CompilerVersion="5.4.0"
+	OSName="Linux"
+	Hostname="osboxes"
+	OSRelease="4.15.0-46-generic"
+	OSVersion="#49~16.04.1-Ubuntu SMP Tue Feb 12 17:45:24 UTC 2019"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="94"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="5722"
+	TotalPhysicalMemory="8531"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2601"
+	>
+	<Build>
+		<StartDateTime>Mar 13 01:14 EDT</StartDateTime>
+		<StartBuildTime>1552454078</StartBuildTime>
+		<BuildCommand>/usr/bin/cmake --build . --config "Release" -- -i</BuildCommand>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>Mar 13 01:14 EDT</EndDateTime>
+		<EndBuildTime>1552454078</EndBuildTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Build>
+</Site>

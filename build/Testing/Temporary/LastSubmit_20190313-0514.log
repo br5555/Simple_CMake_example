@@ -1,0 +1,9 @@
+Upload files:
+0	Build.xml
+1	Configure.xml
+2	Test.xml
+Using drop method: http
+	Upload file: /home/osboxes/isprobavanje_cmake/Primjer/build/Testing/20190313-0514/Build.xml to osboxes___Linux-c++___20190313-0514-Experimental___XML___Build.xml
+	Upload file: /home/osboxes/isprobavanje_cmake/Primjer/build/Testing/20190313-0514/Configure.xml to osboxes___Linux-c++___20190313-0514-Experimental___XML___Configure.xml
+	Upload file: /home/osboxes/isprobavanje_cmake/Primjer/build/Testing/20190313-0514/Test.xml to osboxes___Linux-c++___20190313-0514-Experimental___XML___Test.xml
+   Submission successful

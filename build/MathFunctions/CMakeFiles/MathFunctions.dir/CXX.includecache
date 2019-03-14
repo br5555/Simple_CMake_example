@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/osboxes/isprobavanje_cmake/Primjer/MathFunctions/MathFunctions.h
+math.h
+-
+
+/home/osboxes/isprobavanje_cmake/Primjer/MathFunctions/mysqrt.cxx
+MathFunctions.h
+/home/osboxes/isprobavanje_cmake/Primjer/MathFunctions/MathFunctions.h
+Table.h
+/home/osboxes/isprobavanje_cmake/Primjer/MathFunctions/Table.h
+
+MathFunctions/Table.h
+

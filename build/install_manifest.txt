@@ -1,0 +1,4 @@
+/home/osboxes/isprobavanje_cmake/Primjer/build/bin/Tutorial
+/home/osboxes/isprobavanje_cmake/Primjer/build/include/TutorialConfig.h
+/home/osboxes/isprobavanje_cmake/Primjer/build/MathFunctions/bin/libMathFunctions.a
+/home/osboxes/isprobavanje_cmake/Primjer/build/MathFunctions/include/MathFunctions.h

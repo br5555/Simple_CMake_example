@@ -1,0 +1,134 @@
+Start testing: Mar 13 01:14 EDT
+----------------------------------------------------------
+1/7 Testing: TutorialRuns
+1/7 Test: TutorialRuns
+Command: "/home/osboxes/isprobavanje_cmake/Primjer/build/Tutorial" "25"
+Directory: /home/osboxes/isprobavanje_cmake/Primjer/build
+"TutorialRuns" start time: Mar 13 01:14 EDT
+Output:
+----------------------------------------------------------
+Using my math 
+The square root of 25 is 5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TutorialRuns" end time: Mar 13 01:14 EDT
+"TutorialRuns" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: TutorialComp_25
+2/7 Test: TutorialComp_25
+Command: "/home/osboxes/isprobavanje_cmake/Primjer/build/Tutorial" "25"
+Directory: /home/osboxes/isprobavanje_cmake/Primjer/build
+"TutorialComp_25" start time: Mar 13 01:14 EDT
+Output:
+----------------------------------------------------------
+Using my math 
+The square root of 25 is 5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[25 is 5
+]
+"TutorialComp_25" end time: Mar 13 01:14 EDT
+"TutorialComp_25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: TutorialNegative
+3/7 Test: TutorialNegative
+Command: "/home/osboxes/isprobavanje_cmake/Primjer/build/Tutorial" "-25"
+Directory: /home/osboxes/isprobavanje_cmake/Primjer/build
+"TutorialNegative" start time: Mar 13 01:14 EDT
+Output:
+----------------------------------------------------------
+Using my math 
+The square root of -25 is -nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found.Regex=[-25 is 0
+]
+"TutorialNegative" end time: Mar 13 01:14 EDT
+"TutorialNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: TutorialSmall
+4/7 Test: TutorialSmall
+Command: "/home/osboxes/isprobavanje_cmake/Primjer/build/Tutorial" "0.0001"
+Directory: /home/osboxes/isprobavanje_cmake/Primjer/build
+"TutorialSmall" start time: Mar 13 01:14 EDT
+Output:
+----------------------------------------------------------
+Using my math 
+The square root of 0.0001 is 0.01
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[0.0001 is 0.01
+]
+"TutorialSmall" end time: Mar 13 01:14 EDT
+"TutorialSmall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: TutorialUsage
+5/7 Test: TutorialUsage
+Command: "/home/osboxes/isprobavanje_cmake/Primjer/build/Tutorial"
+Directory: /home/osboxes/isprobavanje_cmake/Primjer/build
+"TutorialUsage" start time: Mar 13 01:14 EDT
+Output:
+----------------------------------------------------------
+/home/osboxes/isprobavanje_cmake/Primjer/build/Tutorial Version 1.0 
+Usage: /home/osboxes/isprobavanje_cmake/Primjer/build/Tutorial number
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[Usage:.*number
+]
+"TutorialUsage" end time: Mar 13 01:14 EDT
+"TutorialUsage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: TutorialComp25
+6/7 Test: TutorialComp25
+Command: "/home/osboxes/isprobavanje_cmake/Primjer/build/Tutorial" "25"
+Directory: /home/osboxes/isprobavanje_cmake/Primjer/build
+"TutorialComp25" start time: Mar 13 01:14 EDT
+Output:
+----------------------------------------------------------
+Using my math 
+The square root of 25 is 5
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[25 is 5
+]
+"TutorialComp25" end time: Mar 13 01:14 EDT
+"TutorialComp25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: TutorialComp-25
+7/7 Test: TutorialComp-25
+Command: "/home/osboxes/isprobavanje_cmake/Primjer/build/Tutorial" "-25"
+Directory: /home/osboxes/isprobavanje_cmake/Primjer/build
+"TutorialComp-25" start time: Mar 13 01:14 EDT
+Output:
+----------------------------------------------------------
+Using my math 
+The square root of -25 is -nan
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found.Regex=[-25 is 0
+]
+"TutorialComp-25" end time: Mar 13 01:14 EDT
+"TutorialComp-25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 13 01:14 EDT

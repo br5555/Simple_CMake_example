@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../MathFunctions/MathFunctions.h
+math.h
+-
+
+/home/osboxes/isprobavanje_cmake/Primjer/tutorial.cxx
+stdio.h
+-
+math.h
+-
+TutorialConfig.h
+/home/osboxes/isprobavanje_cmake/Primjer/TutorialConfig.h
+cstdlib
+-
+MathFunctions.h
+/home/osboxes/isprobavanje_cmake/Primjer/MathFunctions.h
+
+TutorialConfig.h
+

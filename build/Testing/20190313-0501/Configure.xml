@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-c++"
+	BuildStamp="20190313-0501-Experimental"
+	Name="osboxes"
+	Generator="ctest-3.5.1"
+	CompilerName="/usr/lib/ccache/c++"
+	CompilerVersion="5.4.0"
+	OSName="Linux"
+	Hostname="osboxes"
+	OSRelease="4.15.0-46-generic"
+	OSVersion="#49~16.04.1-Ubuntu SMP Tue Feb 12 17:45:24 UTC 2019"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="94"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="5722"
+	TotalPhysicalMemory="8531"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2601"
+	>
+	<Configure>
+		<StartDateTime>Mar 13 01:01 EDT</StartDateTime>
+		<StartConfigureTime>1552453275</StartConfigureTime>
+		<ConfigureCommand>"/usr/bin/cmake" "/home/osboxes/isprobavanje_cmake/Primjer"</ConfigureCommand>
+		<Log>Subdirectory added
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/osboxes/isprobavanje_cmake/Primjer/build
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Mar 13 01:01 EDT</EndDateTime>
+		<EndConfigureTime>1552453275</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>
